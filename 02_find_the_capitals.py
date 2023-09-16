@@ -8,6 +8,6 @@ for i in range(len(input_line)):
     if input_line[i].isupper():
         my_list.append(i)
 
-# print the result
+#result
 print(my_list)
 
