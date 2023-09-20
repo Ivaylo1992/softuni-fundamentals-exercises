@@ -1,6 +1,6 @@
 number = int(input())
 
-#creating a list from the charecters of the string of our integer input
+#creating a list from the charecters of the string of our  input
 lst_num = [int(char) for char in str(number)]
 
 #sorting the numbers from the largest to the smallest one
