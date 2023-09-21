@@ -1,3 +1,4 @@
+#challenge Computer Store from SoftUni fundamentals
 total_price = 0
 
 while True:
