@@ -1,6 +1,7 @@
 energy = int(input())
 counter = 0
 while True:
+    
     command = input()
 
     if command == 'End of battle':
