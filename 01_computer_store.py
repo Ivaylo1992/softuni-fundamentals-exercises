@@ -14,7 +14,6 @@ while True:
 
         if input_line == 'special':
             discount_price = total_price_with_taxes * 0.9
-
         break
 
     price = float(input_line)
