@@ -28,6 +28,7 @@ if total_price > 0:
     print(f'Price without taxes: {total_price:.2f}$')
     print(f'Taxes: {taxes:.2f}$')
     print('-----------')
+    
     if input_line == 'special':
         print(f'Total price: {discount_price:.2f}$')
     else:
