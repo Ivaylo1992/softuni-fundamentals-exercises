@@ -34,7 +34,6 @@ while True:
         print(f"You have won in {moves-1} turns!")
         break
 
-
 if len(data) > 0:
     print("Sorry you lose :(")
     print(' '.join(data))

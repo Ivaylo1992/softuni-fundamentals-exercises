@@ -1,6 +1,5 @@
 from math import ceil
 
-
 students_count = int(input())
 lectures_count = int(input())
 additional_bonus = int(input())
