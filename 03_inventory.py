@@ -7,7 +7,7 @@ while True:
         break
 
     operation = command.split(' - ')
-
+    
     if operation[0] == 'Collect':
         item = operation[1]
         if item in journal:
