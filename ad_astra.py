@@ -5,7 +5,7 @@ def get_food_info(input_str):
     matches = re.finditer(pattern, input_str)
     total_calories = 0
     food_items = []
-
+    
     for match in matches:
         item = match.groupdict()
         item['calories'] = int(item['calories'])
