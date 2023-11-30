@@ -5,7 +5,7 @@ class Town:
         self.name = name
         self.latitude = "0°N"
         self.longitude = "0°E"
-
+        
     def set_latitude(self, latitude):
         self.latitude = latitude
 
