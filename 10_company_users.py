@@ -6,7 +6,7 @@ while True:
 
     if command == 'End':
         break
-
+        
     company, ID = command.split(' -> ')
 
     if company not in companies_users:
