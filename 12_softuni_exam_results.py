@@ -7,7 +7,7 @@ while True:
         break
 
     data = command.split('-')
-
+    
     if len(data) == 2:
         username = data[0]
         if username in results_dict:
