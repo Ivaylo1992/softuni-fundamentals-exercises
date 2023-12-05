@@ -11,7 +11,7 @@ while True:
         if total_price == 0:
             print('Invalid order!')
             break
-
+            
         if input_line == 'special':
             discount_price = total_price_with_taxes * 0.9
         break
