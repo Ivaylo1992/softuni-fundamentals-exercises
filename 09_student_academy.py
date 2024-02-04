@@ -7,7 +7,7 @@ for student in range(students_count):
 
     if student_name not in students_info:
         students_info[student_name] = []
-
+        
     students_info[student_name].append(grade)
 
 
