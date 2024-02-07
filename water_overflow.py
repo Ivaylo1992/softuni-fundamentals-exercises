@@ -7,7 +7,7 @@ for _ in range(n):
     if CAPACITY < liters:
         print('Insufficient capacity!')
         continue
-
+        
     CAPACITY -= liters
     liters_poured += liters
 
