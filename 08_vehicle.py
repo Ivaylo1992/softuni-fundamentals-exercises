@@ -1,6 +1,6 @@
 
 class Vehicle:
-
+    
     def __init__(self, type, model, price, owner=None):
         self.type = type
         self.model = model
