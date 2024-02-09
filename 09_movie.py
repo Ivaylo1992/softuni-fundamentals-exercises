@@ -22,16 +22,3 @@ class Movie:
         return f"Movie name: {self.name}; Movie director: {self.director}." \
                f" Total watched movies: {Movie.__watched_movies}"
 
-
-first_movie = Movie("Inception", "Christopher Nolan")
-second_movie = Movie("The Matrix", "The Wachowskis")
-third_movie = Movie("The Predator", "Shane Black")
-first_movie.change_director("Me")
-third_movie.change_name("My Movie")
-first_movie.watch()
-third_movie.watch()
-first_movie.watch()
-print(first_movie)
-print(second_movie)
-print(third_movie)
-
