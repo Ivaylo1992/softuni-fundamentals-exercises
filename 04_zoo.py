@@ -8,7 +8,7 @@ class Zoo:
         self.mammal = []
         self.fish = []
         self.bird = []
-
+        
     def add_animal(self, species, name):
 
         if species == 'mammal':
