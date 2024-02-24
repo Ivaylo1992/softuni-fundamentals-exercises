@@ -1,7 +1,7 @@
 
 class Class:
     __students_count = 22
-
+    
     def __init__(self, name):
         self.name = name
         self.students = []
