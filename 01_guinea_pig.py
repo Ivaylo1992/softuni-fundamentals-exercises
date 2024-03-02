@@ -15,7 +15,7 @@ for day in range(1, days + 1):
     if day % 2 == 0:
         hay_needed = quantity_food_in_grams * 0.05
         quantity_hay_in_grams -= hay_needed
-    
+        
     if day % 3 == 0:
         cover_needed = guinea_weight_in_grams / 3
         quantity_cover_in_grams -= cover_needed
