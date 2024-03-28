@@ -5,7 +5,7 @@ class Article:
         self.title = title
         self.content = content
         self.author = author
-
+        
     def edit(self, new_content: str):
         self.content = new_content
 
